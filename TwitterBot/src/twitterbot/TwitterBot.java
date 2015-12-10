@@ -23,10 +23,10 @@ public class TwitterBot {
         
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("Y8JHyi2w1bUNAwWiKop0mm1cD")
-                .setOAuthConsumerSecret("FUI3K3SBnaRE4RkhLq43CIF87jWrsZ1Vz1vg6vRlnrISk4Plb6")
-                .setOAuthAccessToken("4266440963-LpneK91RX6VVLfd3J6iL223lqrsGxAcm70avIb3")
-                .setOAuthAccessTokenSecret("Vztnrq86mVVqHodGbSOdRooLVBCaFcBGPF7TyTfH6jW8v");
+                .setOAuthConsumerKey("***")
+                .setOAuthConsumerSecret("***")
+                .setOAuthAccessToken("***")
+                .setOAuthAccessTokenSecret("***");
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
         
